@@ -17,9 +17,10 @@
   },
   "homepage": "https://github.com/nodar-chkuaselidze/bcoin-signing#readme",
   "dependencies": {
-    "bcfg": "0.1.2",
-    "bmultisig": "1.0.0",
-    "bcoin": "1.0.2"
+    "bcfg": "^0.1.2",
+    "bcoin": "^1.0.2",
+    "bledger": "^0.1.1",
+    "bmultisig": "^1.0.0"
   },
   "devDependencies": {
     "eslint": "^5.4.0"
