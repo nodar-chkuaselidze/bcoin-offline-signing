@@ -1,7 +1,7 @@
 {
   "name": "bcoin-signing",
   "version": "0.0.0",
-  "description": "bcoin signing example",
+  "description": "Bmultisig meets bledger",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,7 +17,11 @@
   },
   "homepage": "https://github.com/nodar-chkuaselidze/bcoin-signing#readme",
   "dependencies": {
-    "bclient": "0.0.2",
-    "bcoin": "bcoin-org/bcoin#9bc81cac"
+    "bcfg": "0.1.2",
+    "bmultisig": "1.0.0",
+    "bcoin": "1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.4.0"
   }
 }
