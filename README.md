@@ -1,6 +1,7 @@
-Bcoin signing example
+bmultisig + bledger
 ====
 
-If you are using `watchOnly` wallets and signing transactions outside of `bwallet`, these example might help.
-
-This will be using bcoin wallet HTTP API to create, sign and broadcast transactions.
+- Create wallet using ledger xpubs.
+- Create proposal from one of cosigners. (Send some money first)
+- Approve proposal. (one at a time)
+- Broadcast approved proposal.
